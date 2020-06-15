@@ -1,0 +1,34 @@
+$(document).ready(function(){
+    $("#joinus").validate({
+        rules:{
+            fname:{
+                required:true
+                },
+                email:{
+                    email:true
+                },
+                mobile:{
+                    number:true
+                },
+                day:{
+                    number:true
+                },
+                month:{
+                    number:true
+                },
+                gender:{
+                    required:true
+                },
+                country:{
+                    required:true
+                },
+                address:{
+                    required:true
+                },
+                profession:{
+                    number:true
+
+                }
+        }
+    })
+})

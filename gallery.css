@@ -1,0 +1,81 @@
+.gallery{
+    padding-left: 550px;
+    margin-top: 0px;
+}
+.image00{
+    width: 400px;
+    height: 200px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+    float: left;
+}
+.image01{
+    width: 400px;
+    height: 200px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+.image02{
+    width: 400px;
+    height: 200px;
+    padding-left: 200px;
+    padding-bottom: 0px;
+    float: left;
+}
+.image03{
+    width: 400px;
+    height: 200px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+.image04{
+    width: 400px;
+    height: 200px;
+    padding-left: 200px;
+    padding-bottom: 10px;
+    float: left;
+}
+.image05{
+    width: 400px;
+    height: 200px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    float: left;
+}
+.image12{
+    width: 400px;
+    height: 400px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+
+.image10{
+    width: 400px;
+    height: 390px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    float: left;
+}
+.image11{
+    width: 400px;
+    height: 390px;
+    padding-left: 20px;
+    padding-top: 8px;
+    float: left;
+}
+.image13{
+    width: 400px;
+    height: 390px;
+    padding-left: 100px;
+    padding-top: 8px;
+    
+}
+.row::after{
+    content: none;
+    clear: both;
+    display: table;
+}
